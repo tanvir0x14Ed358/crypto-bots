@@ -1,3 +1,5 @@
+#Full Web3 Mint Website for Beginners | React, Hardhat, Ethers, and Chakra following https://www.youtube.com/watch?v=ynFNLBP2TPs
+
 #How it the page is expected to look like
 
 ![Minting Page](readme-assets/web-page-to-mint.png )
@@ -78,4 +80,5 @@ Yog Joshi Art
 @YogJoshiArt
 https://giphy.com/gifs/side-scroller-sidescrolling-scrolling-U7huVmA3TKuqvznInJ
 https://freesvg.org
+
 
