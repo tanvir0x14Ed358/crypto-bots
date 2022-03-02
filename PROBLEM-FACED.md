@@ -42,5 +42,42 @@ npx hardhat compile
 npx hardhat run scripts/deployCryptoBotsNFT.js --network rinkeby
 npx hardhat run scripts/deployCryptoBotsNFT.js --network ropsten
 npm i -D @nomiclabs/hardhat-etherscan
-npx hardhat verify --network ropsten 0xFBb0b7c320AAdA50f99a615bb9A958815CC71309
+npx hardhat verify --network ropsten 0xf909c6e736252a3bbAFE73503B4aF1aba4509e8B
 npm run start
+npx hardhat verify --network rinkeby 0xFBb0b7c320AAdA50f99a615bb9A958815CC71309 
+
+
+Background Image Credit:
+Yog Joshi Art
+@YogJoshiArt
+
+
+
+IPFS
+-------
+
+1.Downloaded few free images.
+2. Created account in https://www.pinata.cloud/
+3. Uploaded the entire image folder
+4. Got a CID like this QmRNknvBDZLzYMKzok948rVCxVnUoUZVbCnq6Foey9tXK9
+
+IPFS MetaData Format
+
+
+OpenSea MetaData Format
+{
+  "description": "Friendly OpenSea Creature that enjoys long swims in the ocean.", 
+  "external_url": "https://openseacreatures.io/3", 
+  "image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png", 
+  "name": "Dave Starbelly",
+  "attributes": [ ... ], 
+}
+
+Original Pinata URL "https://gateway.pinata.cloud/ipfs/QmRNknvBDZLzYMKzok948rVCxVnUoUZVbCnq6Foey9tXK9/1.png"
+In JSON we do "image": "ipfs://QmRNknvBDZLzYMKzok948rVCxVnUoUZVbCnq6Foey9tXK9/1.png",
+
+CID of JSON folder "QmRDEhce1xfQXifQtgzTBdLkj1G4HEB5R5YiqrA6SXEtX7"
+is to be used as base uri
+
+https://www.rinkebyfaucet.com/ worked
+0xFBb0b7c320AAdA50f99a615bb9A958815CC71309

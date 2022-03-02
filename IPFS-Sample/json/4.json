@@ -1,0 +1,16 @@
+{
+    "name": "Jeremy!",
+    "description": "Officer, Brave annd Fast.",
+    "image": "gateway.pinata.cloud/ipfs/QmRNknvBDZLzYMKzok948rVCxVnUoUZVbCnq6Foey9tXK9/4.png",
+    "attributes" : [
+      {
+        "trait_type" : "Profession",
+        "value":"Soldier"
+  
+      },
+      {
+        "trait_type" : "Color",
+        "value":"Brown"
+      }
+    ]
+  }

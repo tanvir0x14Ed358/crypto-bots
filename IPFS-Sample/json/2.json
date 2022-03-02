@@ -1,0 +1,16 @@
+{
+    "name": "Jenny!",
+    "description": "Team Red, Sharp annd witty.",
+    "image": "gateway.pinata.cloud/ipfs/QmRNknvBDZLzYMKzok948rVCxVnUoUZVbCnq6Foey9tXK9/2.png",
+    "attributes" : [
+      {
+        "trait_type" : "Profession",
+        "value":"Scholars"
+  
+      },
+      {
+        "trait_type" : "Color",
+        "value":"Red"
+      }
+    ]
+  }

@@ -16,10 +16,10 @@ contract CryptoBotsNFT is ERC721,  Ownable{
 
 
     constructor() payable ERC721('CryptoBots', 'CBTS'){
-        mintPrice = 0.0000002 ether;
+        mintPrice = 0.01 ether;
         totalSupply = 0;
-        maxSupply = 1000;
-        maxPerWallet = 5;
+        maxSupply = 4;
+        maxPerWallet = 2;
     }
 
     function  setIsPublicMintEnabled(bool isPublicMintEnabled_) external onlyOwner{

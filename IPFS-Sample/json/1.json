@@ -1,0 +1,16 @@
+{
+    "name": "John!",
+    "description": "Team Blue, Fast annd knowledgeable.",
+    "image": "gateway.pinata.cloud/ipfs/QmRNknvBDZLzYMKzok948rVCxVnUoUZVbCnq6Foey9tXK9/1.png",
+    "attributes" : [
+      {
+        "trait_type" : "Profession",
+        "value":"Scholars"
+  
+      },
+      {
+        "trait_type" : "Color",
+        "value":"Blue"
+      }
+    ]
+  }
